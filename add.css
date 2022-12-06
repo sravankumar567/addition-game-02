@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    height: auto;
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+
+}
+.image1{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.Inputs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 550px;
+    margin-left: 5px;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px 10px;
+}
+#firstInput{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-weight: 50;
+    box-shadow: 0 0 10px 1px;
+}
+#secondInput{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-weight: 500;
+    box-shadow: 0 0 10px 1px;
+}
+span{
+    font-weight: 700;
+    font-size: 2.1rem;
+   
+}
+.value{
+    margin-top: 20px;
+    margin-left: 750px;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    margin-left: 700px;
+    
+
+}
+.check{
+    padding: 10px 20px;
+    margin: 10px 30px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px;
+}
+.reset{
+    padding: 10px 20px;
+    margin: 10px 30px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px;
+
+}
+p{
+    height: 50px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 31.rem;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
